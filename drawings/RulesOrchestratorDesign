@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" modified="2023-02-06T14:38:03.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="D30CR8kq03gkotWNHfr3" version="20.8.10" type="github">
+  <diagram name="Page-1" id="eVuv5Scltar3T30la2p8">
+    <mxGraphModel dx="1012" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-5" value="Rule Set Run Start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.48;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sjCvWnK6t-uWMwvEzah4-1" target="sjCvWnK6t-uWMwvEzah4-4" edge="1">
+          <mxGeometry x="-0.1589" y="-11" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="310" y="129" />
+              <mxPoint x="310" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-1" value="RuleTrigger (init + notify rule set start)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="109.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sjCvWnK6t-uWMwvEzah4-2" target="sjCvWnK6t-uWMwvEzah4-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-29" value="RuleSetRunTrigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="sjCvWnK6t-uWMwvEzah4-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.3317" y="-3" relative="1" as="geometry">
+            <mxPoint x="16" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-2" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;RuleRunnerTopic&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="-50" width="76.5" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="sjCvWnK6t-uWMwvEzah4-4" target="sjCvWnK6t-uWMwvEzah4-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-21" value="Rule Set Run Start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sjCvWnK6t-uWMwvEzah4-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.5003" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-4" value="RuleSetTopic" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="80" width="76.5" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="701" y="220.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sjCvWnK6t-uWMwvEzah4-7" target="sjCvWnK6t-uWMwvEzah4-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-11" value="completed rule&amp;nbsp;&lt;br&gt;+ result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sjCvWnK6t-uWMwvEzah4-10" vertex="1" connectable="0">
+          <mxGeometry x="0.2256" y="-3" relative="1" as="geometry">
+            <mxPoint x="-19" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-7" value="Rules" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="228" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n746503KKeUf-sQxzMGb-3" value="completed rule&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ result&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#290505;" edge="1" parent="1" source="sjCvWnK6t-uWMwvEzah4-9" target="sjCvWnK6t-uWMwvEzah4-12">
+          <mxGeometry x="0.0213" y="-20" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="220" />
+              <mxPoint x="280" y="220" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-9" value="Rule Topic" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="182" width="76.5" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sjCvWnK6t-uWMwvEzah4-12" target="sjCvWnK6t-uWMwvEzah4-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="387" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-27" value="Rule set run completed &lt;br&gt;+ result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" parent="sjCvWnK6t-uWMwvEzah4-16" vertex="1" connectable="0">
+          <mxGeometry x="0.1174" relative="1" as="geometry">
+            <mxPoint x="-6" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-12" value="complete rules tracker&lt;br&gt;(save rules result + rule set run complete check + notify result rule set run)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="208.25" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-28" value="Rule set run completed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ result" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="sjCvWnK6t-uWMwvEzah4-15" target="sjCvWnK6t-uWMwvEzah4-17" edge="1">
+          <mxGeometry x="-0.4242" y="22" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-15" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;RuleSetTopic&lt;/span&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="303.5" width="76.5" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="679.62" y="380" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="90" y="60" width="170" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#290505;" parent="1" source="sjCvWnK6t-uWMwvEzah4-23" target="sjCvWnK6t-uWMwvEzah4-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-33" value="RuleSet callback&lt;br&gt;run status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#290505;" parent="sjCvWnK6t-uWMwvEzah4-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.0691" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-23" value="CompleteRuleSetCallbacks" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="694.37" y="390" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-24" value="Rules Orchestrator" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="115" y="70.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sjCvWnK6t-uWMwvEzah4-31" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#290505&quot;&gt;RuleSetCompleteCallbackTopic&lt;/font&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="420" width="76.5" height="76.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n746503KKeUf-sQxzMGb-1" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=3;fontColor=#290505;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="671" y="-100" width="220" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="n746503KKeUf-sQxzMGb-2" value="User&#39;s Independent Rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#290505;" vertex="1" parent="1">
+          <mxGeometry x="701" y="190.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n746503KKeUf-sQxzMGb-6" value="RuleSetRunTrigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#290505;" edge="1" parent="1" source="n746503KKeUf-sQxzMGb-5" target="sjCvWnK6t-uWMwvEzah4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n746503KKeUf-sQxzMGb-5" value="Some user trigger somewhere" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontColor=#290505;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="722" y="-42" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
