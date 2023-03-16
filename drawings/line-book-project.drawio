@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T17:16:13.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qfY5x9ISiluey1-DkN0I" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-16T20:21:44.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="T4oqz1G_nMyBsjy7OnHb" version="21.0.6" type="github">
   <diagram name="Page-1" id="JyzD6iUcr9XkHCg-oid8">
-    <mxGraphModel dx="1012" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1180" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,6 +64,9 @@
         <mxCell id="rnJiiy-tTPaVu0qWVX1Y-27" value="Rules Orchestrator / Lines trigger SQS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="620.5" y="576.5" width="76.5" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="rnJiiy-tTPaVu0qWVX1Y-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rnJiiy-tTPaVu0qWVX1Y-28" target="rnJiiy-tTPaVu0qWVX1Y-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rnJiiy-tTPaVu0qWVX1Y-28" value="Rules / Worker&lt;br&gt;Per metric" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="598" y="750" width="120" height="60" as="geometry" />
         </mxCell>
@@ -91,6 +94,9 @@
         <mxCell id="rnJiiy-tTPaVu0qWVX1Y-36" value="Rules Orchestrator / Lines trigger SQS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="620.5" y="856.5" width="76.5" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="rnJiiy-tTPaVu0qWVX1Y-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rnJiiy-tTPaVu0qWVX1Y-37" target="rnJiiy-tTPaVu0qWVX1Y-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rnJiiy-tTPaVu0qWVX1Y-37" value="Rules / Worker&lt;br&gt;Per metric" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="598" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
@@ -100,29 +106,20 @@
         <mxCell id="rnJiiy-tTPaVu0qWVX1Y-39" value="SNS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="855" width="76.5" height="76.5" as="geometry" />
         </mxCell>
-        <mxCell id="rnJiiy-tTPaVu0qWVX1Y-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnJiiy-tTPaVu0qWVX1Y-45" target="rnJiiy-tTPaVu0qWVX1Y-45">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="480" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="320" y="480" />
-              <mxPoint x="320" y="480" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rnJiiy-tTPaVu0qWVX1Y-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnJiiy-tTPaVu0qWVX1Y-41" target="rnJiiy-tTPaVu0qWVX1Y-45">
+        <mxCell id="rnJiiy-tTPaVu0qWVX1Y-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rnJiiy-tTPaVu0qWVX1Y-41" target="rnJiiy-tTPaVu0qWVX1Y-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rnJiiy-tTPaVu0qWVX1Y-41" value="Write SQS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sns;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="411.5" y="442.5" width="76.5" height="75" as="geometry" />
+          <mxGeometry x="1040" y="742.5" width="76.5" height="75" as="geometry" />
         </mxCell>
         <mxCell id="rnJiiy-tTPaVu0qWVX1Y-43" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="90" y="439.5" width="72" height="81" as="geometry" />
+          <mxGeometry x="1370" y="739.5" width="72" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="rnJiiy-tTPaVu0qWVX1Y-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rnJiiy-tTPaVu0qWVX1Y-45" target="rnJiiy-tTPaVu0qWVX1Y-43">
+        <mxCell id="rnJiiy-tTPaVu0qWVX1Y-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rnJiiy-tTPaVu0qWVX1Y-45" target="rnJiiy-tTPaVu0qWVX1Y-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rnJiiy-tTPaVu0qWVX1Y-45" value="Lines Trigger Worker" style="whiteSpace=wrap;html=1;verticalAlign=top;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="218" y="449.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1170" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
