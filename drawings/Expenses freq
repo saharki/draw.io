@@ -1,9 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T13:47:06.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.7" etag="rweCbZL4Uci--JtBo-6z" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T15:35:31.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JDuju4U0O3yC4ZBdv_Es" version="21.2.7" type="github">
   <diagram name="Page-1" id="LQtK06WYeXG2Co3mjNSJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1065" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p-Fd9994lS60lVfCln0v-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="110" as="sourcePoint" />
+            <mxPoint x="950" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-22" value="time" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p-Fd9994lS60lVfCln0v-20">
+          <mxGeometry x="-0.0236" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="190" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-28" value="Credit Stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="205" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-29" value="debit 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="205" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="190" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-32" value="Credit Stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="205" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="920" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-33" value="debit 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="205" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-34" value="debit 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="205" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="110" as="sourcePoint" />
+            <mxPoint x="1950" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-37" value="time" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p-Fd9994lS60lVfCln0v-36">
+          <mxGeometry x="-0.0236" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-6" value="Credit Stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="175" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-9" value="start repayment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="175" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-12" value="complete" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="175" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-15" value="Credit Stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="295" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-16" value="start repayment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="295" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-17" value="complete" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="295" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-18" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;האם צריך לחכות לתשלום לפני הקרדיט של הסטייג׳ הבא?&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="250" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-24" value="Credit Stage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="415" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-25" value="start repayment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="415" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-Fd9994lS60lVfCln0v-26" value="complete" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="415" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
