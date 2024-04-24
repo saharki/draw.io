@@ -1,56 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T14:42:01.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NB1i6RwtwkLGnmXX696j" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T14:24:49.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cKxlY1Mm3pDqopqOH4Tq" version="23.1.4" type="github">
   <diagram name="Page-1" id="iUNMUGpa4TO8MJ_QJjL2">
     <mxGraphModel dx="970" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-1" value="Bank Analyzer&lt;br&gt;Tables" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-1" value="Bank Analyzer&lt;br&gt;Tables" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MfGsmghk4U4ayYRlkLG7-4" target="MfGsmghk4U4ayYRlkLG7-5">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MfGsmghk4U4ayYRlkLG7-4" target="MfGsmghk4U4ayYRlkLG7-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-4" value="Due Diligence&lt;br&gt;(My team)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-4" value="Due Diligence&lt;br&gt;(My team)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MfGsmghk4U4ayYRlkLG7-5" target="MfGsmghk4U4ayYRlkLG7-1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MfGsmghk4U4ayYRlkLG7-5" target="MfGsmghk4U4ayYRlkLG7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-5" value="Bank Analyzer Service" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-5" value="Bank Analyzer Service" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MfGsmghk4U4ayYRlkLG7-8" target="MfGsmghk4U4ayYRlkLG7-1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MfGsmghk4U4ayYRlkLG7-8" target="MfGsmghk4U4ayYRlkLG7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-8" value="Risk View&lt;br&gt;(Retool)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-8" value="Risk View&lt;br&gt;(Retool)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MfGsmghk4U4ayYRlkLG7-10" target="MfGsmghk4U4ayYRlkLG7-1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MfGsmghk4U4ayYRlkLG7-10" target="MfGsmghk4U4ayYRlkLG7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-10" value="ADAM&lt;br&gt;(Tsabar)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-10" value="ADAM&lt;br&gt;(Tsabar)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MfGsmghk4U4ayYRlkLG7-12" target="MfGsmghk4U4ayYRlkLG7-5">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MfGsmghk4U4ayYRlkLG7-12" target="MfGsmghk4U4ayYRlkLG7-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-12" value="Bank Loans Rule&lt;br&gt;(Roie&#39;s team)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-12" value="Bank Loans Rule&lt;br&gt;(Roie&#39;s team)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MfGsmghk4U4ayYRlkLG7-14" target="MfGsmghk4U4ayYRlkLG7-4">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MfGsmghk4U4ayYRlkLG7-14" target="MfGsmghk4U4ayYRlkLG7-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-14" value="Funding Application Setup &lt;br&gt;(My team)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-14" value="Funding Application Setup &lt;br&gt;(My team)" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MfGsmghk4U4ayYRlkLG7-16" target="MfGsmghk4U4ayYRlkLG7-14">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MfGsmghk4U4ayYRlkLG7-16" target="MfGsmghk4U4ayYRlkLG7-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MfGsmghk4U4ayYRlkLG7-16" target="MfGsmghk4U4ayYRlkLG7-4">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MfGsmghk4U4ayYRlkLG7-16" target="MfGsmghk4U4ayYRlkLG7-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MfGsmghk4U4ayYRlkLG7-16" value="Banners" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="MfGsmghk4U4ayYRlkLG7-16" value="Banners" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k5HqhNmwkZLar2nMpJ_B-1" value="Auto bank confirmation" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k5HqhNmwkZLar2nMpJ_B-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.325;entryY=1.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k5HqhNmwkZLar2nMpJ_B-1" target="MfGsmghk4U4ayYRlkLG7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k5HqhNmwkZLar2nMpJ_B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k5HqhNmwkZLar2nMpJ_B-3" target="MfGsmghk4U4ayYRlkLG7-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="430" />
+              <mxPoint x="450" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k5HqhNmwkZLar2nMpJ_B-3" value="User categorization" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
