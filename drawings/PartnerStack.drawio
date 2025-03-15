@@ -292,7 +292,7 @@
         </mxCell>
         <mxCell id="n681HTzuoX9JEPWCnZ8q-4" value="Get cutomer by plan id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n681HTzuoX9JEPWCnZ8q-3">
           <mxGeometry x="0.2802" y="2" relative="1" as="geometry">
-            <mxPoint x="41" y="-8" as="offset" />
+            <mxPoint x="-2" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n681HTzuoX9JEPWCnZ8q-5" value="partnerstack_lead_raw" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
