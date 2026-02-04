@@ -588,7 +588,49 @@
           <mxGeometry height="42" width="50" x="-330" y="3000" as="geometry" />
         </mxCell>
         <mxCell id="1uF1ycfd0DxpTF-Ju_ay-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Redis&lt;/h1&gt;&lt;p&gt;Good for counting with atomicity - but not in a huge scale&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="180" x="-240" y="2970" as="geometry" />
+          <mxGeometry height="120" width="180" x="-170" y="2970" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;KGS&lt;/h1&gt;&lt;p&gt;All keys are pre-generated and there are no dups, but writing is still a blocking operation..&lt;/p&gt;&lt;p&gt;single point of failure.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="-170" y="3090" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Key generation service" vertex="1">
+          <mxGeometry height="60" width="120" x="-500" y="3260" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;KGS + key service&lt;/h1&gt;&lt;p&gt;Each key service caches keys and there is no chance of race-condition.&lt;/p&gt;&lt;p&gt;When key service falls the keys are dying with it&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="-170" y="3230" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-16" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Key service #1" vertex="1">
+          <mxGeometry height="30" width="90" x="-340" y="3220" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-17" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Key service #2" vertex="1">
+          <mxGeometry height="30" width="90" x="-340" y="3275" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-18" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Key service #3" vertex="1">
+          <mxGeometry height="30" width="90" x="-340" y="3330" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Keys" vertex="1">
+          <mxGeometry height="80" width="60" x="-500" y="3090" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-8" edge="1" parent="1" source="1uF1ycfd0DxpTF-Ju_ay-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="o8Hn9tssEkdGru1TzVCr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Keys" vertex="1">
+          <mxGeometry height="80" width="60" x="-650" y="3250" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-10" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="o8Hn9tssEkdGru1TzVCr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;How to generate a key?&lt;/h1&gt;&lt;p&gt;6 chars = (26 letters + 10 digits)^6 options = 2.2B options&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Assuming 500M records per month it will last for 4000 years.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Even if every key will expire after 5 years at most - the system will be fine&lt;/p&gt;" vertex="1">
+          <mxGeometry height="298" width="244" x="-920" y="3062" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
