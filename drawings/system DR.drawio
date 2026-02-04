@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="fl4ivNYPVRhHx14lZzAF">
-    <mxGraphModel dx="3210" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3478" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -710,6 +710,109 @@
         </mxCell>
         <mxCell id="o8Hn9tssEkdGru1TzVCr-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Key service" vertex="1">
           <mxGeometry height="70" width="120" x="-389" y="3550" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-52" parent="1" style="shape=mxgraph.aws3.user;html=1;whiteSpace=wrap;fillColor=#5A6B86;fontColor=#ffffff;strokeColor=#3B4554;" value="Client" vertex="1">
+          <mxGeometry height="60" width="60" x="-830" y="4090" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-53" parent="1" style="shape=mxgraph.aws3.route_53;html=1;whiteSpace=wrap;fillColor=#F58534;fontColor=#ffffff;strokeColor=#BD6728;" value="DNS (Route 53)" vertex="1">
+          <mxGeometry height="60" width="60" x="-710" y="4090" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-54" parent="1" style="shape=mxgraph.aws3.elb;html=1;whiteSpace=wrap;fillColor=#232F3E;fontColor=#ffffff;strokeColor=#17202A;" value="Load Balancer" vertex="1">
+          <mxGeometry height="60" width="60" x="-590" y="4090" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-55" parent="1" style="shape=mxgraph.aws3.api_gateway;html=1;whiteSpace=wrap;fillColor=#D86613;fontColor=#ffffff;strokeColor=#A64F0E;" value="API Gateway" vertex="1">
+          <mxGeometry height="60" width="60" x="-470" y="4090" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-56" parent="1" style="shape=mxgraph.aws3.ec2;html=1;whiteSpace=wrap;fillColor=#F58534;fontColor=#ffffff;strokeColor=#BD6728;" value="Shorten Service" vertex="1">
+          <mxGeometry height="60" width="100" x="-350" y="3990" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-57" parent="1" style="shape=mxgraph.aws3.ec2;html=1;whiteSpace=wrap;fillColor=#F58534;fontColor=#ffffff;strokeColor=#BD6728;" value="Redirect Service" vertex="1">
+          <mxGeometry height="60" width="100" x="-350" y="4190" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-58" parent="1" style="shape=mxgraph.aws3.elastic_cache;html=1;whiteSpace=wrap;fillColor=#232F3E;fontColor=#ffffff;strokeColor=#17202A;" value="Cache (Redis)" vertex="1">
+          <mxGeometry height="60" width="60" x="-190" y="3990" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-59" parent="1" style="shape=mxgraph.aws3.rds;html=1;whiteSpace=wrap;fillColor=#232F3E;fontColor=#ffffff;strokeColor=#17202A;" value="Database (RDS)" vertex="1">
+          <mxGeometry height="60" width="60" x="-190" y="4190" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-60" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-52" style="endArrow=classic;html=1;rounded=0;" target="o8Hn9tssEkdGru1TzVCr-53" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-770" y="4120" as="sourcePoint" />
+            <mxPoint x="-710" y="4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-61" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-53" style="endArrow=classic;html=1;rounded=0;" target="o8Hn9tssEkdGru1TzVCr-54" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-650" y="4120" as="sourcePoint" />
+            <mxPoint x="-590" y="4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-62" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-54" style="endArrow=classic;html=1;rounded=0;" target="o8Hn9tssEkdGru1TzVCr-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-530" y="4120" as="sourcePoint" />
+            <mxPoint x="-470" y="4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-63" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-55" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-56" value="Shorten URL Request">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-440" y="4020" />
+            </Array>
+            <mxPoint x="-440" y="4090" as="sourcePoint" />
+            <mxPoint x="-350" y="4020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-64" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-56" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-58" value="Write Cache">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-250" y="4020" as="sourcePoint" />
+            <mxPoint x="-190" y="4020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-65" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-56" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="Write DB">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-220" y="4020" />
+              <mxPoint x="-220" y="4220" />
+            </Array>
+            <mxPoint x="-250" y="4020" as="sourcePoint" />
+            <mxPoint x="-190" y="4220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-66" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-55" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-57" value="Redirect Request">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-440" y="4220" />
+            </Array>
+            <mxPoint x="-440" y="4150" as="sourcePoint" />
+            <mxPoint x="-350" y="4220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-67" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-57" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-58" value="Read Cache">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-220" y="4220" />
+              <mxPoint x="-220" y="4020" />
+            </Array>
+            <mxPoint x="-250" y="4220" as="sourcePoint" />
+            <mxPoint x="-190" y="4020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-68" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-57" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-59" value="Read DB (if not in cache)">
+          <mxGeometry height="50" relative="1" width="50" y="-40" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <mxPoint x="-250" y="4220" as="sourcePoint" />
+            <mxPoint x="-190" y="4220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-69" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-57" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-52" value="Redirect 301/302">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-410" y="4220" />
+              <mxPoint x="-410" y="4120" />
+            </Array>
+            <mxPoint x="-350" y="4220" as="sourcePoint" />
+            <mxPoint x="-770" y="4120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
