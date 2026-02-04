@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="Page-1" id="fl4ivNYPVRhHx14lZzAF">
-    <mxGraphModel dx="2095" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3264" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -617,13 +617,13 @@
         <mxCell id="o8Hn9tssEkdGru1TzVCr-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Key service #3" vertex="1">
           <mxGeometry height="30" width="90" x="-340" y="3330" as="geometry" />
         </mxCell>
-        <mxCell id="o8Hn9tssEkdGru1TzVCr-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Keys" vertex="1">
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Available Keys" vertex="1">
           <mxGeometry height="80" width="60" x="-500" y="3090" as="geometry" />
         </mxCell>
         <mxCell id="o8Hn9tssEkdGru1TzVCr-8" edge="1" parent="1" source="1uF1ycfd0DxpTF-Ju_ay-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="o8Hn9tssEkdGru1TzVCr-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="o8Hn9tssEkdGru1TzVCr-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Keys" vertex="1">
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Available Keys" vertex="1">
           <mxGeometry height="80" width="60" x="-650" y="3250" as="geometry" />
         </mxCell>
         <mxCell id="o8Hn9tssEkdGru1TzVCr-10" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="o8Hn9tssEkdGru1TzVCr-9">
@@ -631,6 +631,27 @@
         </mxCell>
         <mxCell id="o8Hn9tssEkdGru1TzVCr-19" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;How to generate a key?&lt;/h1&gt;&lt;p&gt;6 chars = (26 letters + 10 digits)^6 options = 2.2B options&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Assuming 500M records per month it will last for 4000 years.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Even if every key will expire after 5 years at most - the system will be fine&lt;/p&gt;" vertex="1">
           <mxGeometry height="298" width="244" x="-920" y="3062" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-20" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Storage&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;2.2B * 6 chars * 8 bytes = 105GB&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="-1170" y="3062" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-23" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="o8Hn9tssEkdGru1TzVCr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-25" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="o8Hn9tssEkdGru1TzVCr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Shortening service" vertex="1">
+          <mxGeometry height="60" width="120" x="205.1" y="3260" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-24" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Url" vertex="1">
+          <mxGeometry height="80" width="60" x="235" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-26" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="User" vertex="1">
+          <mxGeometry height="80" width="60" x="155" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="o8Hn9tssEkdGru1TzVCr-27" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="o8Hn9tssEkdGru1TzVCr-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
