@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
   <diagram name="Page-1" id="fl4ivNYPVRhHx14lZzAF">
-    <mxGraphModel dx="3161" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4087" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -931,6 +931,106 @@
               <mxPoint x="-670" y="5093" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="User" vertex="1">
+          <mxGeometry height="730" width="150" x="-1220" y="5510" as="geometry" />
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Asset Service" vertex="1">
+          <mxGeometry height="730" width="150" x="-869" y="5510" as="geometry" />
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Blob Storage" vertex="1">
+          <mxGeometry height="730" width="150" x="-669" y="5510" as="geometry" />
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Message Service" vertex="1">
+          <mxGeometry height="730" width="150" x="-469" y="5510" as="geometry" />
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Receiver" vertex="1">
+          <mxGeometry height="730" width="150" x="-269" y="5510" as="geometry" />
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="CDN" vertex="1">
+          <mxGeometry height="730" width="150" x="-69" y="5510" as="geometry" />
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-15" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-9" style="curved=1;endArrow=block;rounded=0;" target="tggYwnrSA7q1Kp4A5AUS-9" value="Compress and encrypt media file">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1094" y="5613" />
+              <mxPoint x="-1094" y="5643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-16" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-9" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tggYwnrSA7q1Kp4A5AUS-10" value="Upload compressed and encrypted file">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-961" y="5691" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-17" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-10" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tggYwnrSA7q1Kp4A5AUS-11" value="Store file">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-685" y="5739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-18" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-10" style="curved=1;endArrow=block;rounded=0;" target="tggYwnrSA7q1Kp4A5AUS-10" value="Generate unique ID">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-743" y="5787" />
+              <mxPoint x="-743" y="5817" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-19" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-10" style="curved=1;endArrow=block;rounded=0;" target="tggYwnrSA7q1Kp4A5AUS-10" value="Check for file duplication">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-743" y="5865" />
+              <mxPoint x="-743" y="5895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-20" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-10" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tggYwnrSA7q1Kp4A5AUS-9" value="Send ID of media file">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-958" y="5943" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-21" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-10" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tggYwnrSA7q1Kp4A5AUS-12" value="Forward ID to receiver">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-585" y="5991" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-22" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-12" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tggYwnrSA7q1Kp4A5AUS-13" value="Deliver ID">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-285" y="6039" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-23" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-13" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tggYwnrSA7q1Kp4A5AUS-11" value="Download media file using ID">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-382" y="6087" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-24" edge="1" parent="1" source="tggYwnrSA7q1Kp4A5AUS-10" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tggYwnrSA7q1Kp4A5AUS-14" value="Load content if necessary">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-385" y="6135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-25" edge="1" parent="1" source="o8Hn9tssEkdGru1TzVCr-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="o8Hn9tssEkdGru1TzVCr-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;WhatsApp&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="-849" y="5390" as="geometry" />
+        </mxCell>
+        <mxCell id="tggYwnrSA7q1Kp4A5AUS-27" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=0;fontSize=8;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Asset service&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="-849" y="5450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
