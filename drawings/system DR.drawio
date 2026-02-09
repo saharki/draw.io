@@ -1111,19 +1111,19 @@
           <mxGeometry height="60" width="120" x="-920" y="7700" as="geometry" />
         </mxCell>
         <mxCell id="myPcqXH9NzSDIyM15ESm-27" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
-          <mxGeometry height="60" width="30" x="-1199" y="7690" as="geometry" />
+          <mxGeometry height="60" width="30" x="-1199" y="7699.85" as="geometry" />
         </mxCell>
         <mxCell id="myPcqXH9NzSDIyM15ESm-28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
           <mxGeometry height="60" width="30" x="-558" y="7730" as="geometry" />
         </mxCell>
         <mxCell id="myPcqXH9NzSDIyM15ESm-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Connection manager" vertex="1">
-          <mxGeometry height="60" width="120" x="-739" y="7690" as="geometry" />
+          <mxGeometry height="60" width="120" x="-739" y="7700" as="geometry" />
         </mxCell>
         <mxCell id="myPcqXH9NzSDIyM15ESm-30" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="myPcqXH9NzSDIyM15ESm-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="myPcqXH9NzSDIyM15ESm-32" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.alb_application_load_balancer_01;" value="" vertex="1">
-          <mxGeometry height="40.2" width="47.400000000000006" x="-1097.4" y="7699.9" as="geometry" />
+          <mxGeometry height="40.1" width="47.28" x="-1097.2800000000002" y="7710.599999999999" as="geometry" />
         </mxCell>
         <mxCell id="myPcqXH9NzSDIyM15ESm-35" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.28;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" target="myPcqXH9NzSDIyM15ESm-32">
           <mxGeometry relative="1" as="geometry" />
