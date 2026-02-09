@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="Page-1" id="fl4ivNYPVRhHx14lZzAF">
-    <mxGraphModel dx="3407" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3175" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1052,6 +1052,96 @@
         </mxCell>
         <mxCell id="k-U6jC6ZHlP41mAQjY2--8" edge="1" parent="1" source="k-U6jC6ZHlP41mAQjY2--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.633;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" target="k-U6jC6ZHlP41mAQjY2--7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Shared whiteboard&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="-819" y="7140" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;API&lt;/h1&gt;&lt;div&gt;POST /v1/board/create&lt;/div&gt;&lt;div&gt;POST /v1/board/:id/share&lt;/div&gt;&lt;div&gt;POST /v1/board/:id/item&lt;/div&gt;&lt;div&gt;PUT /v1/board/:id/item/:item-id&lt;/div&gt;&lt;div&gt;DELETE /v1/board/:id/item/:item-id&lt;/div&gt;&lt;div&gt;PUT /v1/board/:id/cursor&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="384" x="-1084" y="7180" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-10" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myPcqXH9NzSDIyM15ESm-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-773" y="7429.869565217392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-12" connectable="0" parent="myPcqXH9NzSDIyM15ESm-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Websocket" vertex="1">
+          <mxGeometry relative="1" x="0.0832" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-15" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myPcqXH9NzSDIyM15ESm-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Board service" vertex="1">
+          <mxGeometry height="60" width="120" x="-934" y="7400" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-6" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myPcqXH9NzSDIyM15ESm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-13" connectable="0" parent="myPcqXH9NzSDIyM15ESm-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="update" vertex="1">
+          <mxGeometry relative="1" x="0.2659" y="1" as="geometry">
+            <mxPoint x="-16" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="-1084" y="7400" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="high level" vertex="1">
+          <mxGeometry height="30" width="60" x="-1004" y="7350" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="-685" y="7400" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-14" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Boards&lt;div&gt;Board Items&lt;br&gt;&lt;div&gt;Users&lt;/div&gt;&lt;div&gt;Events&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="83.5" x="-915.75" y="7520" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Events repo saves only item changes events" vertex="1">
+          <mxGeometry height="50" width="184" x="-770" y="7510" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Boards + board items can be stored in CassandraDB&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Maybe board items in MongoDB because it schema-less?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="248" x="-804" y="7590" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-31" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myPcqXH9NzSDIyM15ESm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-40" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myPcqXH9NzSDIyM15ESm-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Board service" vertex="1">
+          <mxGeometry height="60" width="120" x="-920" y="7700" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-27" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="-1199" y="7690" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="-558" y="7730" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Connection manager" vertex="1">
+          <mxGeometry height="60" width="120" x="-739" y="7690" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-30" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="myPcqXH9NzSDIyM15ESm-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-32" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.alb_application_load_balancer_01;" value="" vertex="1">
+          <mxGeometry height="40.2" width="47.400000000000006" x="-1097.4" y="7699.9" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-35" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.28;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" target="myPcqXH9NzSDIyM15ESm-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-38" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myPcqXH9NzSDIyM15ESm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-36" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.apigateway;" value="" vertex="1">
+          <mxGeometry height="41.699999999999996" width="43.199999999999996" x="-1007" y="7709" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-37" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.107;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;" target="myPcqXH9NzSDIyM15ESm-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-39" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Boards&lt;div&gt;Board Items&lt;br&gt;&lt;div&gt;Users&lt;/div&gt;&lt;div&gt;Events&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="83.5" x="-901.75" y="7820" as="geometry" />
+        </mxCell>
+        <mxCell id="myPcqXH9NzSDIyM15ESm-41" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Flow&lt;/h1&gt;&lt;div&gt;post/put/delete item -&amp;gt;&amp;nbsp; update board items -&amp;gt; save event -&amp;gt; push update to connection manager&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(throttle on client side) cursor move&amp;nbsp; -&amp;gt; push update to connection manager&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="-750" y="7840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
