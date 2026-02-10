@@ -1179,7 +1179,7 @@
         <mxCell id="ZUSy_0Zo9ls3I7lnhiw--4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;API&lt;/h1&gt;&lt;div&gt;System side:&lt;/div&gt;&lt;div&gt;POST /v1/event&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Client&lt;/div&gt;&lt;div&gt;GET /v1/metrics?type=[type]&amp;amp;time-range=[timerange]&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="384" x="-1154" y="8210" as="geometry" />
         </mxCell>
-        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Flow&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Flow&lt;/h1&gt;&lt;div&gt;&amp;nbsp;On metric update -&amp;gt; LB -&amp;gt; GW -&amp;gt; metrics service -&amp;gt; kafka -&amp;gt; metrics writer -&amp;gt; write to S3 + Redis&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Redis -&amp;gt; Cassandra will be every second with the aggregated result&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Cassandra is eventual consistent, might take some time to update the view (less than 4 seconds is realistic and acceptable)&lt;/div&gt;" vertex="1">
           <mxGeometry height="240" width="234" x="-484" y="8800" as="geometry" />
         </mxCell>
         <mxCell id="ZUSy_0Zo9ls3I7lnhiw--6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Metrics" vertex="1">
@@ -1224,7 +1224,7 @@
           <mxGeometry height="60" width="120" x="-736" y="8521" as="geometry" />
         </mxCell>
         <mxCell id="ZUSy_0Zo9ls3I7lnhiw--21" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Metrics&amp;nbsp;&lt;div&gt;(Cassandra)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="86" width="74" x="-705" y="8840" as="geometry" />
+          <mxGeometry height="86" width="74" x="-705" y="8920" as="geometry" />
         </mxCell>
         <mxCell id="ZUSy_0Zo9ls3I7lnhiw--31" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--29">
           <mxGeometry relative="1" as="geometry" />
@@ -1235,14 +1235,11 @@
         <mxCell id="ZUSy_0Zo9ls3I7lnhiw--28" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZUSy_0Zo9ls3I7lnhiw--26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--50" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZUSy_0Zo9ls3I7lnhiw--29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Metrics writer" vertex="1">
           <mxGeometry height="60" width="120" x="-729" y="8720" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--21">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-668" y="8780" as="sourcePoint" />
-            <mxPoint x="-669" y="8850" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="ZUSy_0Zo9ls3I7lnhiw--33" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--34">
           <mxGeometry relative="1" as="geometry">
@@ -1275,6 +1272,12 @@
         </mxCell>
         <mxCell id="ZUSy_0Zo9ls3I7lnhiw--43" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.907;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZUSy_0Zo9ls3I7lnhiw--40">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--51" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--49" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="42" width="50" x="-693" y="8808" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
