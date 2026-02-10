@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="Page-1" id="fl4ivNYPVRhHx14lZzAF">
-    <mxGraphModel dx="3140" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3300" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1098,6 +1098,9 @@
         <mxCell id="myPcqXH9NzSDIyM15ESm-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Events repo saves only item changes events" vertex="1">
           <mxGeometry height="50" width="184" x="-770" y="7510" as="geometry" />
         </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--3" edge="1" parent="1" source="myPcqXH9NzSDIyM15ESm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="myPcqXH9NzSDIyM15ESm-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="myPcqXH9NzSDIyM15ESm-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Boards + board items can be stored in CassandraDB&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Maybe board items in MongoDB because it schema-less?&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="248" x="-804" y="7590" as="geometry" />
         </mxCell>
@@ -1169,6 +1172,109 @@
               <mxPoint x="-962" y="7770" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Datadog&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="-959" y="8160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;API&lt;/h1&gt;&lt;div&gt;System side:&lt;/div&gt;&lt;div&gt;POST /v1/event&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Client&lt;/div&gt;&lt;div&gt;GET /v1/metrics?type=[type]&amp;amp;time-range=[timerange]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="384" x="-1154" y="8210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Flow&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="234" x="-484" y="8800" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Metrics" vertex="1">
+          <mxGeometry height="80" width="60" x="-644" y="8198" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--7" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="metric" vertex="1">
+          <mxGeometry height="120" width="140" x="-530" y="8180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--8" parent="ZUSy_0Zo9ls3I7lnhiw--7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="service id" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--9" parent="ZUSy_0Zo9ls3I7lnhiw--7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="type" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--10" parent="ZUSy_0Zo9ls3I7lnhiw--7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="value1, value2, ..." vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--12" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.944;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZUSy_0Zo9ls3I7lnhiw--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--15" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-940" y="8550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Service" vertex="1">
+          <mxGeometry height="60" width="120" x="-1140" y="8520" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--16" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.alb_application_load_balancer_01;" value="" vertex="1">
+          <mxGeometry height="40.1" width="47.28" x="-967.28" y="8530.749999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--20" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUSy_0Zo9ls3I7lnhiw--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--17" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.apigateway;" value="" vertex="1">
+          <mxGeometry height="41.699999999999996" width="43.199999999999996" x="-855.5999999999998" y="8529.15" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--18" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.107;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZUSy_0Zo9ls3I7lnhiw--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Metrics service" vertex="1">
+          <mxGeometry height="60" width="120" x="-736" y="8521" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--21" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Metrics&amp;nbsp;&lt;div&gt;(Cassandra)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="74" x="-705" y="8840" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--31" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--26" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.queue;fillColor=#D9A741;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="48" width="73.5" x="-712.75" y="8640" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--28" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZUSy_0Zo9ls3I7lnhiw--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Metrics writer" vertex="1">
+          <mxGeometry height="60" width="120" x="-729" y="8720" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-668" y="8780" as="sourcePoint" />
+            <mxPoint x="-669" y="8850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--33" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-810.48" y="8805.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--34" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" value="raw events" vertex="1">
+          <mxGeometry height="50" width="50" x="-829" y="8850" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--35" parent="1" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.ipad10inch;strokeColor=#c0c0c0;" value="" vertex="1">
+          <mxGeometry height="70" width="64" x="-119" y="8720" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Metrics viewer" vertex="1">
+          <mxGeometry height="60" width="120" x="-524" y="8720" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--38" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZUSy_0Zo9ls3I7lnhiw--21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--39" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.alb_application_load_balancer_01;" value="" vertex="1">
+          <mxGeometry height="40.1" width="47.28" x="-217.28" y="8728.149999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--44" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUSy_0Zo9ls3I7lnhiw--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--40" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.apigateway;" value="" vertex="1">
+          <mxGeometry height="41.699999999999996" width="43.199999999999996" x="-343.1999999999998" y="8729.15" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--42" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.64;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZUSy_0Zo9ls3I7lnhiw--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUSy_0Zo9ls3I7lnhiw--43" edge="1" parent="1" source="ZUSy_0Zo9ls3I7lnhiw--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.907;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZUSy_0Zo9ls3I7lnhiw--40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
