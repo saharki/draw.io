@@ -1502,11 +1502,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-76" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8_OmSDCSQ75ZHB_pLq0-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-400" y="10285" />
+              <mxPoint x="-388" y="10285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Doc service" vertex="1">
           <mxGeometry height="60" width="120" x="-513" y="10150" as="geometry" />
         </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-58" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8_OmSDCSQ75ZHB_pLq0-57">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-80" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="E8_OmSDCSQ75ZHB_pLq0-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-690" y="10185" />
+              <mxPoint x="-665" y="10185" />
+              <mxPoint x="-665" y="10250" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Docs event handler&lt;div&gt;(websocket)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-800" y="10090" as="geometry" />
@@ -1516,9 +1533,6 @@
         </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Docs event handler&lt;div&gt;(websocket)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-805" y="10220" as="geometry" />
-        </mxCell>
-        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-56" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.549;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" target="E8_OmSDCSQ75ZHB_pLq0-53">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-59" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="E8_OmSDCSQ75ZHB_pLq0-50">
           <mxGeometry relative="1" as="geometry">
@@ -1530,7 +1544,7 @@
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-57" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.mq_message_queue;" value="" vertex="1">
           <mxGeometry height="49.8" width="45" x="-642.5" y="10150" as="geometry" />
         </mxCell>
-        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-60" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="CassandraDB" vertex="1">
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-60" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="CassandraDB&lt;div&gt;Events&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="92" x="-498" y="10260" as="geometry" />
         </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-63" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.alb_application_load_balancer_01;" value="" vertex="1">
@@ -1553,6 +1567,15 @@
         </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-72" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Cache" vertex="1">
           <mxGeometry height="80" width="60" x="-590" y="10270" as="geometry" />
+        </mxCell>
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-75" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Docs DB&lt;div&gt;(Mongo)&lt;/div&gt;&lt;div&gt;Docs collection&lt;/div&gt;&lt;div&gt;Chunks collection&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="104" x="-434" y="10360" as="geometry" />
+        </mxCell>
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="handlers router" vertex="1">
+          <mxGeometry height="40" width="104" x="-804" y="10170" as="geometry" />
+        </mxCell>
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-79" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.602;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="E8_OmSDCSQ75ZHB_pLq0-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
