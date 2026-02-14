@@ -1469,9 +1469,9 @@
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-52" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8_OmSDCSQ75ZHB_pLq0-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-62" connectable="0" parent="E8_OmSDCSQ75ZHB_pLq0-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Update (with debouncing)" vertex="1">
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-62" connectable="0" parent="E8_OmSDCSQ75ZHB_pLq0-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Update (with debouncing)&lt;div&gt;ChunkId + update&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2699" as="geometry">
-            <mxPoint x="2" y="20" as="offset" />
+            <mxPoint x="10" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-66" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8_OmSDCSQ75ZHB_pLq0-63">
