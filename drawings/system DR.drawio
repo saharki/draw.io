@@ -1516,15 +1516,6 @@
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-58" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8_OmSDCSQ75ZHB_pLq0-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-80" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="E8_OmSDCSQ75ZHB_pLq0-53">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-690" y="10185" />
-              <mxPoint x="-665" y="10185" />
-              <mxPoint x="-665" y="10250" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Docs event handler&lt;div&gt;(websocket)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-800" y="10090" as="geometry" />
         </mxCell>
@@ -1575,6 +1566,15 @@
           <mxGeometry height="40" width="104" x="-804" y="10170" as="geometry" />
         </mxCell>
         <mxCell id="E8_OmSDCSQ75ZHB_pLq0-79" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.602;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" target="E8_OmSDCSQ75ZHB_pLq0-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-83" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8_OmSDCSQ75ZHB_pLq0-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-81" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.mq_message_queue;" value="" vertex="1">
+          <mxGeometry height="49.8" width="45" x="-664" y="10215.1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8_OmSDCSQ75ZHB_pLq0-82" edge="1" parent="1" source="E8_OmSDCSQ75ZHB_pLq0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.311;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" target="E8_OmSDCSQ75ZHB_pLq0-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
